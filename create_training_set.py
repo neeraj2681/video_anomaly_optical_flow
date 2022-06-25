@@ -5,7 +5,7 @@ import cv2
 k = 8
 
 #loading the training dataset
-path_train = "/home/neeraj/Desktop/thesis_work/UCSD_Anomaly_Dataset_mod/UCSD_Anomaly_Dataset.v1p2/UCSDped2/Train/"
+path_train = "/kaggle/working/video_anomaly_optical_flow/UCSD_Anomaly_Dataset_mod/UCSD_Anomaly_Dataset.v1p2/UCSDped2/Train/"
 
 #to store the path of every training folder
 dir_list = []
