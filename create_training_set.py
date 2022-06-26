@@ -51,7 +51,7 @@ train_input = np.array(train_input)
 
 np.save('train_set.npy',train_input)
 #np.save('train_predcition_set', train_prediction_output)
-np.save('train_prediction__set', train_prediction_label)
+np.save('train_prediction_set', train_prediction_label)
 
 
 '''Checking the size of training sets'''

@@ -12,7 +12,7 @@ from tensorflow.keras.models import Model
 from model import create_model
 
 train_input = np.load('train_set.npy')
-train_prediction = np.load('train_prediction__set.npy')
+train_prediction = np.load('train_prediction_set.npy')
 train_input = train_input / 255.0
 train_prediction = train_prediction / 255.0
 
